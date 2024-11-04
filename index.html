@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高性能URL展開・解析ツール</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>URL展開・解析ツール</h1>
+        <p>短縮URLの展開や、URLの構造を解析します。</p>
+
+        <input type="text" id="urlInput" placeholder="URLを入力してください">
+        <div class="buttons">
+            <button onclick="expandUrl()">短縮URL展開</button>
+            <button onclick="analyzeUrl()">URL解析</button>
+        </div>
+
+        <h3>結果:</h3>
+        <div id="result" class="output"></div>
+
+        <h4 class="disclaimer">注意: このツールの使用によって生じた問題について、開発者は一切の責任を負いません。</h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
